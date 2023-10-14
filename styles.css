@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#photo img {
+  max-width: 50%;
+  height: auto;
+}
+
+#contacts, #research-interests, #featured-articles, #extras {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#featured-articles ul, #full-articles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#featured-articles li, #full-articles li {
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
